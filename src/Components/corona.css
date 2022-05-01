@@ -1,0 +1,9 @@
+.corona {
+    text-align: center;
+    background-color: black;
+    padding: 1% 0;
+}
+.corona > a {
+    text-decoration: underline;
+    color: white;
+}

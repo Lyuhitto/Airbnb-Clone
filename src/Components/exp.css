@@ -1,0 +1,15 @@
+.exp-item {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+.exp-des {
+  color: white;
+  font-size: 4vw;
+  font-weight: bold;
+  padding-bottom: 5%;
+
+}
+.go-exp {
+font-weight: bold;
+}

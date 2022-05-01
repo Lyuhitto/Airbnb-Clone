@@ -1,0 +1,13 @@
+.image-container {
+  display: grid;
+  grid-template-rows: repeat(auto-fit,minmax(100px, 1fr));
+}
+.city-name{
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-size: 2rem;
+
+}
+.distance {
+  font-size: 1.2rem;
+}

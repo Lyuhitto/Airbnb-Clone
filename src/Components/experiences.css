@@ -1,0 +1,18 @@
+.exps {
+  display: flex;
+  padding: 9% 5% 0 5%;
+  flex-direction: column;
+  height: 70vw;
+}
+.exp-head {
+  font-size: 2vw;
+  padding-bottom: 4vw;
+  color: black;
+}
+.exp-items {
+  white-space: nowrap;
+  height: 100%;
+  display: grid;
+  column-gap: 2%;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}

@@ -1,0 +1,27 @@
+.help {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF385C;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 30vw;
+    border-radius: 1rem;
+    padding: 10% 10%;
+    word-wrap: break-word;
+    font-size: 1rem;
+}
+.help > span {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.more a {
+    color: white;
+    border: 2px solid white;
+    border-radius: 1rem;
+    margin-top: 10%;
+    padding: 10%;
+    white-space: nowrap;
+}
