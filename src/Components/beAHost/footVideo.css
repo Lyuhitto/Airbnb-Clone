@@ -1,0 +1,38 @@
+.foot {
+  height: 105vh;
+  
+}
+.foot-container {
+  display: flex;
+  height: 100%;
+}
+.foot-video {
+
+  flex: 1 1 50%;
+}
+.foot-video video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center top;
+}
+.foot-description {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.foot-description h2 {
+  font-size: 48px;
+  line-height: 56px;
+}
+.foot-description div {
+  margin: 32px 0 32px 0;
+  font-size: 18px;
+  line-height: 26px;
+}

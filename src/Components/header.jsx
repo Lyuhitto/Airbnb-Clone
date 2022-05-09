@@ -25,9 +25,9 @@ export default function Header() {
           </Link>
         </div>
         <div className="item right">
-          <a href="#">호스트 되기</a>
+          <Link to="/be-a-host">호스트 되기</Link>
           <ChangeLang />
-          <button className="user">
+          <button type="button" className="user">
             <Bars
               width="1.2rem"
               height="1.2rem"

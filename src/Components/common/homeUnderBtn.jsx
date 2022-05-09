@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Btn = styled.span`
+const Btn = styled.div`
   color: black;
   background-color: white;
   border: 1px solid white;
@@ -18,10 +18,6 @@ const Btn = styled.span`
 
 export default function HomeUnderBtn(props) {
   return (
-    <div>
-    <Btn>
-      {props.name}
-    </Btn>
-    </div>
+      <Btn>{props.name}</Btn>
   );
 }

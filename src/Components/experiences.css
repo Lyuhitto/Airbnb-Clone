@@ -1,6 +1,6 @@
 .exps {
   display: flex;
-  padding: 9% 5% 0 5%;
+  padding: 9% 5% 9% 5%;
   flex-direction: column;
   height: 70vw;
 }

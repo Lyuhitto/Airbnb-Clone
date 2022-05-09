@@ -12,6 +12,7 @@ export default function Experiences() {
       des1: "여행 중 만나는",
       des2: "이색적인 즐길 거리",
       btn: "체험",
+      link: '/',
     },
     {
       id: 2,
@@ -19,6 +20,7 @@ export default function Experiences() {
       des2: "다양한 즐길 거리",
       bg: "exp-right.jpg",
       btn: "온라인 체험",
+      link: '/online',
     },
   ];
   return (

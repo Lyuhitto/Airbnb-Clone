@@ -4,7 +4,7 @@ import Elrastic from '../elrastic';
 import Ideas from '../ideas';
 import Experiences from '../experiences';
 import AskHost from '../askHost';
-
+import './home.css';
 
 
 export default function Home() {

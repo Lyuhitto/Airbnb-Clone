@@ -1,0 +1,29 @@
+.ask-section {
+  padding: 0 5% 5% 5%;
+}
+.ask-container {
+  background-size: cover;
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  grid-auto-rows: auto 1fr;
+  box-sizing: border-box;
+  height: 49vw;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.ask-item {
+  display: flex;
+  flex-direction: column;
+}
+.ask-des {
+  font-size: 6vw;
+  font-weight: bold;
+  color: white;
+  letter-spacing: -0.02em;
+  white-space: pre-line;
+}

@@ -1,0 +1,4 @@
+.beAHost {
+  display: flex;
+  flex-direction: column;
+}
